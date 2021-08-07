@@ -5,6 +5,7 @@
       <button @click="addTodo()">+ add</button>
     </div>
     <div>
+      <h3>Todos</h3>
       <ul>
         <template v-for="(item, index) in todos">
           <li :key="index">
